@@ -1,0 +1,13 @@
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\CitizenFX.Core.Client.dll
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\CitizenFX.Core.dll
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\MsgPack.dll
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\CitizenFX.Core.pdb
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\CitizenFX.Core.xml
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\MsgPack.xml
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\obj\Debug\RoadSigns.csproj.CoreCompileInputs.cache
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\obj\Debug\RoadSigns.csproj.CopyComplete
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\RoadSigns.net.dll
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\bin\Debug\RoadSigns.net.pdb
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\obj\Debug\RoadSigns.net.dll
+C:\Users\gnimr\OneDrive\Visual Studio\RoadSigns\obj\Debug\RoadSigns.net.pdb
