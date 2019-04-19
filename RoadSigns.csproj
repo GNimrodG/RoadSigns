@@ -57,8 +57,28 @@
     <Compile Include="Sign.cs" />
     <Compile Include="SignWatcher.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="html\index.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="html\script.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="html\style.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="__resource.lua">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir)*" "Z:\script-testing\resources\roadsigns\" /Y</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetDir)*" "Z:\script-testing\resources\RoadSigns\" /Y
+xcopy "$(TargetDir)html\*" "Z:\script-testing\resources\RoadSigns\html\" /Y</PostBuildEvent>
   </PropertyGroup>
 </Project>

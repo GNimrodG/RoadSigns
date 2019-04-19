@@ -55,12 +55,19 @@ namespace RoadSigns
                     LastStreet = GetStreetName(Coords, out _, out _);
                     Debug.WriteLine($"New Limit: {LastLimit} Street: {LastStreet}");
                 }
-                else if (LastLimit != null && !CheckStreetNames(LastStreet, GetStreetName(Coords, out uint StreetHash, out _)))
+                else if (LastLimit != null && !CheckStreetNames(LastStreet, GetStreetName(Coords, out _, out _)))
                 {
                     if (StreetDiff == 3)
                         ResetLimit();
                     else
                         StreetDiff++;
+                }
+                else
+                {
+                    Vector3 NodePos = new Vector3();
+                    _ = GetNthClosestVehicleNode(Coords.X, Coords.Y, Coords.Z, 0, ref NodePos, 0, 0, 0);
+                    if(Vdist2(Coords.X, Coords.Y, Coords.Z, NodePos.X, NodePos.Y, NodePos.Z) > 1400f)                    
+                        ResetLimit();
                 }
             }
             else if (LastLimit != null)

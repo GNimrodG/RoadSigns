@@ -1,0 +1,43 @@
+{
+  "FadeEffects": true,
+  "FlashEffect": true,
+  "SignPillar": true,
+  "DisplayCorner": 0,
+  "SignGroups": [
+    {
+      "Name": "Cars",
+      "UseText": false,
+      "Text": null,
+      "Signs": {
+        "prop_sign_road_06a": "24",
+        "prop_sign_road_06b": "8",
+        "prop_sign_road_06c": "24",
+        "prop_sign_road_06d": "40",
+        "prop_sign_road_06e": "56",
+        "prop_sign_road_06f": "80",
+        "prop_sign_road_06g": "96",
+        "prop_sign_road_06i": "40",
+        "prop_sign_road_06j": "88",
+        "prop_sign_road_06k": "56"
+      }
+    },
+    {
+      "Name": "Trucks",
+      "UseText": true,
+      "Text": "TRUCKS",
+      "Signs": {
+        "prop_sign_road_06m": "8",
+        "prop_sign_road_06n": "32",
+        "prop_sign_road_06o": "72"
+      }
+    },
+    {
+      "Name": "TrucksAndTrailers",
+      "UseText": true,
+      "Text": "TRUCKS & CARS WITH TRAILER",
+      "Signs": {
+        "prop_sign_road_06p": "88"
+      }
+    }
+  ]
+}

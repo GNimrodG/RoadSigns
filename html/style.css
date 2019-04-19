@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#container {
+    position: fixed;
+}
+
+#container.Bottom {
+    bottom: 70px;
+}
+
+#container.Right {
+    right: 0;
+}
+
+.Sign {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 10px solid red;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+}
+
+.Sign .SignPillar {
+    content: '';
+    position: absolute;
+    top: 90px;
+    left: 37px;
+    right: 37px;
+    bottom: -80px;
+    background: white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    z-index: -5;
+}
+
+.Over>.Number {
+    font-size: 3em;
+}
+
+.Animate {
+    animation: Flash 1s 5;
+}
+
+.Number {
+    /* display: inline-block; */
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 4em;
+    line-height: 80px;
+}
+
+.Sign .Text {
+    position: absolute;
+    font-weight: bold;
+    font-family: monospace;
+    align-self: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    top: 100px;
+    background-color: rgb(177, 177, 177);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.Sign .Text:after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: rgb(177, 177, 177);
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.divider {
+    display: inline-block;
+    width: 10px;
+    /* height: 80px; */
+}
+
+@keyframes Flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
