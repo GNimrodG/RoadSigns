@@ -1,4 +1,6 @@
 # RoadSigns
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGNG2017%2FRoadSigns.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FGNG2017%2FRoadSigns?ref=badge_shield)
+
 KM/H HUD road signs in FiveM.
 Download on the releases tab.
 
@@ -13,3 +15,7 @@ Download on the releases tab.
   - `"UseText"` - Indicates if that sign group has "comment" on it. Values: `true` OR `false`
   - `"Text"` - If the groups has "comment" then what is that comment. Values: `null` if `"UseText"` is `false` othervise string between two `"` ex: `"TRUCKS"` *You should use capital lettrs for the look*
   - `"Signs"` - It's a list containing the object names and speed limits of the speed signs Values: `"object_id": "speed limit"`
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FGNG2017%2FRoadSigns.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FGNG2017%2FRoadSigns?ref=badge_large)
